@@ -1,0 +1,21 @@
+{
+  "name": "pokedb",
+  "version": "1.0.0",
+  "description": "An Easy-To-Use Pokemon Data finder",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficialCodinary/PokeDB.git"
+  },
+  "keywords": [
+    "pokemon",
+    "database",
+    "pokedb"
+  ],
+  "author": "ROBBING GAMER",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OfficialCodinary/PokeDB/issues"
+  },
+  "homepage": "https://github.com/OfficialCodinary/PokeDB#readme"
+}
