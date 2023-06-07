@@ -1,10 +1,10 @@
-# PokeDb Documentation
+# rgpokedb Documentation
 
 ## Overview
-PokeDb is a Node.js library that provides functions for accessing Pokémon data. It allows you to retrieve information about Pokémon species, their base stats, moves, items, types, and more. PokeDb utilizes JSON files for data storage and retrieval.
+rgpokedb is a Node.js library that provides functions for accessing Pokémon data. It allows you to retrieve information about Pokémon species, their base stats, moves, items, types, and more. rgpokedb utilizes JSON files for data storage and retrieval.
 
 ## Installation
-To use PokeDb in your Node.js project, make sure you have Node.js installed. Then, follow these steps:
+To use rgpokedb in your Node.js project, make sure you have Node.js installed. Then, follow these steps:
 
 1. Create a new directory for your project (if not already done).
 2. Navigate to the project directory in your terminal or command prompt.
@@ -12,16 +12,16 @@ To use PokeDb in your Node.js project, make sure you have Node.js installed. The
    ```bash
    npm init -y
    ```
-4. Install the PokeDb library by running the following command:
+4. Install the rgpokedb library by running the following command:
    ```bash
-   npm install pokedb
+   npm install rgpokedb
    ```
 
 ## Usage
-To begin using PokeDb, require it in your Node.js application:
+To begin using rgpokedb, require it in your Node.js application:
 
 ```javascript
-const pokedb = require('pokedb');
+const rgpokedb = require('rgpokedb');
 ```
 
 ## Functions
@@ -39,11 +39,11 @@ Returns:
 
 Example:
 ```javascript
-const baseStats = pokedb.getBase(25);
+const baseStats = rgpokedb.getBase(25);
 console.log(baseStats);
 // Output: { HP: 35, Attack: 55, Defense: 40, 'Sp. Attack': 50, 'Sp. Defence': 50, Speed: 90 }
 
-const attackStat = pokedb.getBase(25, 'Attack');
+const attackStat = rgpokedb.getBase(25, 'Attack');
 console.log(attackStat);
 // Output: 55
 ```
@@ -64,7 +64,7 @@ Returns `null` if the Pokémon species is not found.
 
 Example:
 ```javascript
-const pokemonInfo = pokedb.getInfo(25);
+const pokemonInfo = rgpokedb.getInfo(25);
 console.log(pokemonInfo);
 /* Output:
 {
@@ -88,7 +88,7 @@ Returns `null` if the move is not found.
 
 Example:
 ```javascript
-const moveInfo = pokedb.getMove(10);
+const moveInfo = rgpokedb.getMove(10);
 console.log(moveInfo);
 /* Output:
 {
@@ -115,7 +115,7 @@ Returns `null` if the item is not found.
 
 Example:
 ```javascript
-const itemInfo = pokedb.getItem(5);
+const itemInfo = rgpokedb.getItem(5);
 console.log(itemInfo);
 /* Output:
 {
@@ -138,7 +138,7 @@ Returns `null` if the type is not found.
 
 Example:
 ```javascript
-const typeInfo = pokedb.getType('Electric');
+const typeInfo = rgpokedb.getType('Electric');
 console.log(typeInfo);
 /* Output:
 {
@@ -150,4 +150,4 @@ console.log(typeInfo);
 ```
 
 ## Support
-If you need any assistance or have any questions about PokeDb, feel free to contact @ROBBING_GAMER on Telegram.
+If you need any assistance or have any questions about rgpokedb, feel free to contact @ROBBING_GAMER on Telegram.
