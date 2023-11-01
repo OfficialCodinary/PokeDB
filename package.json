@@ -1,13 +1,14 @@
 {
-  "name": "pokedb",
-  "version": "1.0.0",
+  "name": "rgpokedb",
+  "version": "1.1.0",
   "description": "An Easy-To-Use Pokemon Data finder",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OfficialCodinary/PokeDB.git"
+    "url": "https://github.com/OfficialCodinary/PokeDB.git"
   },
   "keywords": [
+    "poke",
     "pokemon",
     "database",
     "pokedb"
