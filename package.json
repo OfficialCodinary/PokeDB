@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/OfficialCodinary/PokeDB/issues"
   },
-  "homepage": "https://github.com/OfficialCodinary/PokeDB#readme"
+  "homepage": "https://github.com/OfficialCodinary/PokeDB#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
 }
